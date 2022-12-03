@@ -98,7 +98,7 @@ def sendEmail(to, content):
     server.sendmail('your email id', to, content)
     server.close()
 
-#
+#dev
 if __name__ == '__main__':
     clear = lambda: os.system('cls')
 
